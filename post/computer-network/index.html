@@ -1,0 +1,414 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>计算机网络 | authoralankay</title>
+<link rel="shortcut icon" href="https://authoralankay.github.io//favicon.ico?v=1689296764532">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://authoralankay.github.io//styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="计算机网络 | authoralankay - Atom Feed" href="https://authoralankay.github.io//atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="计算机将我们从工业时代引领到信息时代，而计算机网络将我们带入互联网时代。
+
+第 1 章	计算机网络体系结构
+1.1	计算机网络概述
+1.1.1	计算机网络的概念
+一般认为，计算机网络是一个将分散的，具有独立功能的计算机系统，通过通信设备与线..." />
+    <meta name="keywords" content="技术" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://authoralankay.github.io/">
+  <img class="avatar" src="https://authoralankay.github.io//images/avatar.png?v=1689296764532" alt="">
+  </a>
+  <h1 class="site-title">
+    authoralankay
+  </h1>
+  <p class="site-description">
+    苟日新，日日新，又日新。
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+        <a href="https://github.com/authoralankay" target="_blank">
+          <i class="ri-github-line"></i>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              计算机网络
+            </h2>
+            <div class="post-info">
+              <span>
+                2023-07-11
+              </span>
+              <span>
+                6 min read
+              </span>
+              
+                <a href="https://authoralankay.github.io/tag/t/" class="post-tag">
+                  # 技术
+                </a>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://authoralankay.github.io//post-images/computer-network.png" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content" v-pre>
+                <p>计算机将我们从工业时代引领到信息时代，而计算机网络将我们带入互联网时代。</p>
+<!-- more -->
+<h2 id="第-1-章计算机网络体系结构">第 1 章	计算机网络体系结构</h2>
+<h3 id="11计算机网络概述">1.1	计算机网络概述</h3>
+<h4 id="111计算机网络的概念">1.1.1	计算机网络的概念</h4>
+<p>一般认为，计算机网络是一个将分散的，具有独立功能的计算机系统，通过通信设备与线路连接起来，由功能完善的软件实现资源共享和信息传递的系统。</p>
+<p>简而言之，计算机网络就是一些互联的、自治的计算机系统的集合。</p>
+<h4 id="112计算机网络的组成">1.1.2	计算机网络的组成</h4>
+<table>
+<thead>
+<tr>
+<th>角度</th>
+<th>组成</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>组成部分</td>
+<td>硬件、软件、协议</td>
+</tr>
+<tr>
+<td>工作方式</td>
+<td>边缘部分和核心部分</td>
+</tr>
+<tr>
+<td>功能组成</td>
+<td>通信子网和资源子网</td>
+</tr>
+</tbody>
+</table>
+<div style="color:blue;">TODO：知识串联(自顶向下)</div>
+<h4 id="113计算机网络的功能">1.1.3	计算机网络的功能</h4>
+<p>计算机网络主要有两大核心功能，以及在核心功能上衍生出的满足社会需求的其他功能。</p>
+<table>
+<thead>
+<tr>
+<th>功能</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>数据通信</td>
+<td>计算机网络最基本最重要的功能。</td>
+</tr>
+<tr>
+<td>资源共享</td>
+<td>软件共享、数据共享、硬件共享。</td>
+</tr>
+</tbody>
+</table>
+<h4 id="114计算机网络的分类">1.1.4	计算机网络的分类</h4>
+<h5 id="1141分布范围">1.1.4.1	分布范围</h5>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>分布范围</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>广域网（Wide Area Network）</td>
+<td>直径几十千米到几千千米的区域</td>
+<td>因特网的核心部分；<br>任务是提供长距离通信；<br>各结点交换机一般为高速链路，具有较大通信容量；<br>传统上，使用交换技术。</td>
+</tr>
+<tr>
+<td>城域网（Metropolitan Area Network）</td>
+<td>直径五到五十千米的区域</td>
+<td>大多采用以太网技术。</td>
+</tr>
+<tr>
+<td>局域网（Local Area Network）</td>
+<td>直径几十米到几千米的区域</td>
+<td>一般用微机或工作站通过高速线路相连；<br>传统上，使用广播技术。</td>
+</tr>
+<tr>
+<td>个人区域网（Personal Area Network）</td>
+<td>直径十米的区域</td>
+<td>无</td>
+</tr>
+</tbody>
+</table>
+<p>注意：若中央处理器之间的距离非常近（如仅 1m 的数量级或甚至更小），则一般称为多处理器系统。</p>
+<h5 id="1142传输技术">1.1.4.2	传输技术</h5>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>简述</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>广播式网络</td>
+<td>所有联网计算机共享一个公共通信信道。当一台计算机利用共享通信信道发送报文分组时，所有其他的计算机都会接受到这个分组并通过检查目的地址来决定是否接受该分组。</td>
+<td>局域网基本上都采用广播式网络；<br>广域网中的无线、卫星通信网络也采用广播式网络。</td>
+</tr>
+<tr>
+<td>点对点网络</td>
+<td>每条物理线路连接一对计算机。若通信的两台主机之间没有直接连接的线路，则它们之间的分组传输就要通过中间结点进行接受、存储和转发，直至目的结点。</td>
+<td>广域网基本都属于点对点网络；<br>是否采用分组存储转发与路由选择机制是点对点网络与广播式网络的重要区别。</td>
+</tr>
+</tbody>
+</table>
+<h5 id="1143拓扑结构">1.1.4.3	拓扑结构</h5>
+<p>网络拓扑结构是指由网中结点（路由器、主机等）与通信线路之间的几何关系表示的网络结构，主要指通信子网的拓扑结构。</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>几何关系</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>总线形网络</td>
+<td>单根传输线把计算机连接起来</td>
+<td>建网容易、节省线路、增/减结点方便；<br>重负载时通信效率不高；<br>总线任意一处对故障敏感。</td>
+</tr>
+<tr>
+<td>星形网络</td>
+<td>每个终端或计算机都以单独的线路与中央设备相连</td>
+<td>中央设备一般是交换机或路由器；<br>便于集中控制和管理；<br>中央设备对故障敏感。</td>
+</tr>
+<tr>
+<td>环形网络</td>
+<td>所有计算机接口设备连接成一个环</td>
+<td>环中信号是单向传输的。</td>
+</tr>
+<tr>
+<td>网状网络</td>
+<td>每个结点至少有两条路径与其他结点相连</td>
+<td>可靠性高；<br>控制复杂、线路成本高。</td>
+</tr>
+</tbody>
+</table>
+<h5 id="1144使用者">1.1.4.4	使用者</h5>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>简述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>公共网</td>
+<td>电信公司出资建造、为按规定缴纳费用的人提供服务的大型网络。</td>
+</tr>
+<tr>
+<td>专用网</td>
+<td>为满足本单位特殊业务的需要而建造、不向本单位以外的人提供服务的网络。</td>
+</tr>
+</tbody>
+</table>
+<h5 id="1145交换技术">1.1.4.5	交换技术</h5>
+<p>交换技术是指各台主机之间、各通信设备之间或主机与通信设备之间为交换信息所采用的数据格式和交换装置的方式。</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>简述</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>电路交换网络</td>
+<td>在源节点和目的节点之间建立一条专用的通道，包括建立连接、传输数据和断开连接三个阶段。</td>
+<td>主要特点是整个报文的比特流陆续地从源点直达终点；<br>数据直接传输、时延小；<br>线路利用率低、不便于差错控制。</td>
+</tr>
+<tr>
+<td>报文交换网络（存储-转发网络）</td>
+<td>用户数据加上源地址、目的地址、校验码等辅助信息，然后封装成报文。整个报文传输到相邻结点，全部存储后，再转发给下一个结点，重复这一过程直至到达目的结点。</td>
+<td>每个报文可以单独选择到达目的结点的路径；<br>可以较为充分地利用线路容量、可以实现不同数据传输速率的转换、可以实现格式转换、可以实现一对多、多对一的访问、可以实现差错控制；<br>增大了资源开销、增加了缓冲时延、需要额外机制保证报文顺序、缓冲区难以管理。</td>
+</tr>
+<tr>
+<td>分组交换网络（包交换网络）</td>
+<td>将数据分成较短的固定长度的数据块，在每个数据块中加上目的地址、源地址等辅助信息组成分组（包），以存储-转发方式传输。</td>
+<td>主流网络基本上都可视为分组交换网络；<br>具备报文交换网络优点、且缓冲区易于管理、易于标准化、包的平均时延更小、网络占用的平均缓存区更少。</td>
+</tr>
+</tbody>
+</table>
+<figure data-type="image" tabindex="1"><img src="https://authoralankay.github.io//post-images/post-t-computer-network-1.1.4.5-comparison-of-the-three-exchange-methods.png" alt="" loading="lazy"></figure>
+<center>三种交换技术的比较</center>
+<h5 id="1146传输介质">1.1.4.6	传输介质</h5>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>子类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>有线网络</td>
+<td>双绞线网络、同轴电缆网络等。</td>
+</tr>
+<tr>
+<td>无线网络</td>
+<td>蓝牙、微波、无线电等。</td>
+</tr>
+</tbody>
+</table>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E7%AC%AC-1-%E7%AB%A0%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84">第 1 章	计算机网络体系结构</a>
+<ul>
+<li><a href="#11%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E6%A6%82%E8%BF%B0">1.1	计算机网络概述</a>
+<ul>
+<li><a href="#111%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E6%A6%82%E5%BF%B5">1.1.1	计算机网络的概念</a></li>
+<li><a href="#112%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E7%BB%84%E6%88%90">1.1.2	计算机网络的组成</a></li>
+<li><a href="#113%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E5%8A%9F%E8%83%BD">1.1.3	计算机网络的功能</a></li>
+<li><a href="#114%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9A%84%E5%88%86%E7%B1%BB">1.1.4	计算机网络的分类</a>
+<ul>
+<li><a href="#1141%E5%88%86%E5%B8%83%E8%8C%83%E5%9B%B4">1.1.4.1	分布范围</a></li>
+<li><a href="#1142%E4%BC%A0%E8%BE%93%E6%8A%80%E6%9C%AF">1.1.4.2	传输技术</a></li>
+<li><a href="#1143%E6%8B%93%E6%89%91%E7%BB%93%E6%9E%84">1.1.4.3	拓扑结构</a></li>
+<li><a href="#1144%E4%BD%BF%E7%94%A8%E8%80%85">1.1.4.4	使用者</a></li>
+<li><a href="#1145%E4%BA%A4%E6%8D%A2%E6%8A%80%E6%9C%AF">1.1.4.5	交换技术</a></li>
+<li><a href="#1146%E4%BC%A0%E8%BE%93%E4%BB%8B%E8%B4%A8">1.1.4.6	传输介质</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://authoralankay.github.io/post/tao-te-ching/">
+              <h3 class="post-title">
+                道德经
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">&nbsp;Gridea</a>
+  <a class="rss" href="https://authoralankay.github.io//atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>

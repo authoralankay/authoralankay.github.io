@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://authoralankay.github.io/</id>
+    <title>authoralankay</title>
+    <updated>2023-07-14T01:06:06.246Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://authoralankay.github.io/"/>
+    <link rel="self" href="https://authoralankay.github.io/atom.xml"/>
+    <subtitle>苟日新，日日新，又日新。</subtitle>
+    <logo>https://authoralankay.github.io/images/avatar.png</logo>
+    <icon>https://authoralankay.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, authoralankay</rights>
+    <entry>
+        <title type="html"><![CDATA[高等数学]]></title>
+        <id>https://authoralankay.github.io/post/further-mathematics/</id>
+        <link href="https://authoralankay.github.io/post/further-mathematics/">
+        </link>
+        <updated>2023-07-12T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>高等数学是比初等数学更高深的数学。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>高等数学是比初等数学更高深的数学。</p>
+<!-- more -->
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[数据结构与算法]]></title>
+        <id>https://authoralankay.github.io/post/data-structure-and-algorithm/</id>
+        <link href="https://authoralankay.github.io/post/data-structure-and-algorithm/">
+        </link>
+        <updated>2023-07-12T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>数据结构 + 算法 = 程序。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>数据结构 + 算法 = 程序。</p>
+<!-- more-->
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[计算机网络]]></title>
+        <id>https://authoralankay.github.io/post/computer-network/</id>
+        <link href="https://authoralankay.github.io/post/computer-network/">
+        </link>
+        <updated>2023-07-11T13:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>计算机将我们从工业时代引领到信息时代，而计算机网络将我们带入互联网时代。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>计算机将我们从工业时代引领到信息时代，而计算机网络将我们带入互联网时代。</p>
+<!-- more -->
+<h2 id="第-1-章计算机网络体系结构">第 1 章	计算机网络体系结构</h2>
+<h3 id="11计算机网络概述">1.1	计算机网络概述</h3>
+<h4 id="111计算机网络的概念">1.1.1	计算机网络的概念</h4>
+<p>一般认为，计算机网络是一个将分散的，具有独立功能的计算机系统，通过通信设备与线路连接起来，由功能完善的软件实现资源共享和信息传递的系统。</p>
+<p>简而言之，计算机网络就是一些互联的、自治的计算机系统的集合。</p>
+<h4 id="112计算机网络的组成">1.1.2	计算机网络的组成</h4>
+<table>
+<thead>
+<tr>
+<th>角度</th>
+<th>组成</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>组成部分</td>
+<td>硬件、软件、协议</td>
+</tr>
+<tr>
+<td>工作方式</td>
+<td>边缘部分和核心部分</td>
+</tr>
+<tr>
+<td>功能组成</td>
+<td>通信子网和资源子网</td>
+</tr>
+</tbody>
+</table>
+<div style="color:blue;">TODO：知识串联(自顶向下)</div>
+<h4 id="113计算机网络的功能">1.1.3	计算机网络的功能</h4>
+<p>计算机网络主要有两大核心功能，以及在核心功能上衍生出的满足社会需求的其他功能。</p>
+<table>
+<thead>
+<tr>
+<th>功能</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>数据通信</td>
+<td>计算机网络最基本最重要的功能。</td>
+</tr>
+<tr>
+<td>资源共享</td>
+<td>软件共享、数据共享、硬件共享。</td>
+</tr>
+</tbody>
+</table>
+<h4 id="114计算机网络的分类">1.1.4	计算机网络的分类</h4>
+<h5 id="1141分布范围">1.1.4.1	分布范围</h5>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>分布范围</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>广域网（Wide Area Network）</td>
+<td>直径几十千米到几千千米的区域</td>
+<td>因特网的核心部分；<br>任务是提供长距离通信；<br>各结点交换机一般为高速链路，具有较大通信容量；<br>传统上，使用交换技术。</td>
+</tr>
+<tr>
+<td>城域网（Metropolitan Area Network）</td>
+<td>直径五到五十千米的区域</td>
+<td>大多采用以太网技术。</td>
+</tr>
+<tr>
+<td>局域网（Local Area Network）</td>
+<td>直径几十米到几千米的区域</td>
+<td>一般用微机或工作站通过高速线路相连；<br>传统上，使用广播技术。</td>
+</tr>
+<tr>
+<td>个人区域网（Personal Area Network）</td>
+<td>直径十米的区域</td>
+<td>无</td>
+</tr>
+</tbody>
+</table>
+<p>注意：若中央处理器之间的距离非常近（如仅 1m 的数量级或甚至更小），则一般称为多处理器系统。</p>
+<h5 id="1142传输技术">1.1.4.2	传输技术</h5>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>简述</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>广播式网络</td>
+<td>所有联网计算机共享一个公共通信信道。当一台计算机利用共享通信信道发送报文分组时，所有其他的计算机都会接受到这个分组并通过检查目的地址来决定是否接受该分组。</td>
+<td>局域网基本上都采用广播式网络；<br>广域网中的无线、卫星通信网络也采用广播式网络。</td>
+</tr>
+<tr>
+<td>点对点网络</td>
+<td>每条物理线路连接一对计算机。若通信的两台主机之间没有直接连接的线路，则它们之间的分组传输就要通过中间结点进行接受、存储和转发，直至目的结点。</td>
+<td>广域网基本都属于点对点网络；<br>是否采用分组存储转发与路由选择机制是点对点网络与广播式网络的重要区别。</td>
+</tr>
+</tbody>
+</table>
+<h5 id="1143拓扑结构">1.1.4.3	拓扑结构</h5>
+<p>网络拓扑结构是指由网中结点（路由器、主机等）与通信线路之间的几何关系表示的网络结构，主要指通信子网的拓扑结构。</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>几何关系</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>总线形网络</td>
+<td>单根传输线把计算机连接起来</td>
+<td>建网容易、节省线路、增/减结点方便；<br>重负载时通信效率不高；<br>总线任意一处对故障敏感。</td>
+</tr>
+<tr>
+<td>星形网络</td>
+<td>每个终端或计算机都以单独的线路与中央设备相连</td>
+<td>中央设备一般是交换机或路由器；<br>便于集中控制和管理；<br>中央设备对故障敏感。</td>
+</tr>
+<tr>
+<td>环形网络</td>
+<td>所有计算机接口设备连接成一个环</td>
+<td>环中信号是单向传输的。</td>
+</tr>
+<tr>
+<td>网状网络</td>
+<td>每个结点至少有两条路径与其他结点相连</td>
+<td>可靠性高；<br>控制复杂、线路成本高。</td>
+</tr>
+</tbody>
+</table>
+<h5 id="1144使用者">1.1.4.4	使用者</h5>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>简述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>公共网</td>
+<td>电信公司出资建造、为按规定缴纳费用的人提供服务的大型网络。</td>
+</tr>
+<tr>
+<td>专用网</td>
+<td>为满足本单位特殊业务的需要而建造、不向本单位以外的人提供服务的网络。</td>
+</tr>
+</tbody>
+</table>
+<h5 id="1145交换技术">1.1.4.5	交换技术</h5>
+<p>交换技术是指各台主机之间、各通信设备之间或主机与通信设备之间为交换信息所采用的数据格式和交换装置的方式。</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>简述</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>电路交换网络</td>
+<td>在源节点和目的节点之间建立一条专用的通道，包括建立连接、传输数据和断开连接三个阶段。</td>
+<td>主要特点是整个报文的比特流陆续地从源点直达终点；<br>数据直接传输、时延小；<br>线路利用率低、不便于差错控制。</td>
+</tr>
+<tr>
+<td>报文交换网络（存储-转发网络）</td>
+<td>用户数据加上源地址、目的地址、校验码等辅助信息，然后封装成报文。整个报文传输到相邻结点，全部存储后，再转发给下一个结点，重复这一过程直至到达目的结点。</td>
+<td>每个报文可以单独选择到达目的结点的路径；<br>可以较为充分地利用线路容量、可以实现不同数据传输速率的转换、可以实现格式转换、可以实现一对多、多对一的访问、可以实现差错控制；<br>增大了资源开销、增加了缓冲时延、需要额外机制保证报文顺序、缓冲区难以管理。</td>
+</tr>
+<tr>
+<td>分组交换网络（包交换网络）</td>
+<td>将数据分成较短的固定长度的数据块，在每个数据块中加上目的地址、源地址等辅助信息组成分组（包），以存储-转发方式传输。</td>
+<td>主流网络基本上都可视为分组交换网络；<br>具备报文交换网络优点、且缓冲区易于管理、易于标准化、包的平均时延更小、网络占用的平均缓存区更少。</td>
+</tr>
+</tbody>
+</table>
+<figure data-type="image" tabindex="1"><img src="https://authoralankay.github.io//post-images/post-t-computer-network-1.1.4.5-comparison-of-the-three-exchange-methods.png" alt="" loading="lazy"></figure>
+<center>三种交换技术的比较</center>
+<h5 id="1146传输介质">1.1.4.6	传输介质</h5>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>子类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>有线网络</td>
+<td>双绞线网络、同轴电缆网络等。</td>
+</tr>
+<tr>
+<td>无线网络</td>
+<td>蓝牙、微波、无线电等。</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[道德经]]></title>
+        <id>https://authoralankay.github.io/post/tao-te-ching/</id>
+        <link href="https://authoralankay.github.io/post/tao-te-ching/">
+        </link>
+        <updated>2023-07-11T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>《道德经》，又称《老子》。传说是春秋时期的老子李耳（似是作者、注释者、传抄者的集合体）所撰写，是道家哲学思想的重要来源，亦是中国历史上首部完整的哲学著作。</p>
+<p>《道德经》分上下两篇，《道经》三十七章在前，从三十八章开始为《德经》，并分为八十一章。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>《道德经》，又称《老子》。传说是春秋时期的老子李耳（似是作者、注释者、传抄者的集合体）所撰写，是道家哲学思想的重要来源，亦是中国历史上首部完整的哲学著作。</p>
+<p>《道德经》分上下两篇，《道经》三十七章在前，从三十八章开始为《德经》，并分为八十一章。</p>
+<!-- more -->
+<h2 id="道经">道经</h2>
+<h3 id="第二章">第二章</h3>
+<p><strong>名句</strong></p>
+<p>天下皆知美之为美，斯恶已。皆知善之为善，斯不善己。</p>
+<h3 id="第四章">第四章</h3>
+<p><strong>名句</strong></p>
+<p>和其光，同其尘。</p>
+<h3 id="第五章">第五章</h3>
+<p><strong>名句</strong></p>
+<p>天地不仁，以万物为刍狗；圣人不仁，以百姓为刍狗。</p>
+<p>多言数穷，不如守中。</p>
+<h3 id="第八章">第八章</h3>
+<p><strong>名句</strong></p>
+<p>上善若水，水善利万物而不争。</p>
+<h3 id="第九章">第九章</h3>
+<p><strong>名句</strong></p>
+<p>持而盈之，不如其已；揣而锐之，不可长保。</p>
+<p>金玉满堂，莫之能守。富贵而骄，自遗其咎。</p>
+<h3 id="第十二章">第十二章</h3>
+<p><strong>名句</strong></p>
+<p>五色令人目盲；五音令人耳聋；五味令人口爽；驰骋畋猎，令人心发狂；难得之货，令人行妨。</p>
+<h3 id="第十六章">第十六章</h3>
+<p><strong>名句</strong></p>
+<p>致虚极；守静笃。万物并作，吾以观复。</p>
+<h3 id="第十九章">第十九章</h3>
+<p><strong>名句</strong></p>
+<p>见素抱朴，少私寡欲，绝学无忧。</p>
+<h3 id="第二十章">第二十章</h3>
+<p><strong>名句</strong></p>
+<p>众人皆有以，而我独顽似鄙。</p>
+<h3 id="第二十二章">第二十二章</h3>
+<p><strong>名句</strong></p>
+<p>不自见，故明；不自是，故彰；不自伐，故有功；不自矜，故长。</p>
+<p>曲则全，枉则直，洼则盈，敝则新，少则得，多则惑。</p>
+<h3 id="第二十三章">第二十三章</h3>
+<p><strong>名句</strong></p>
+<p>天地尚不能久，而况於人乎？</p>
+<p>飘风不终朝，骤雨不终日。</p>
+<h3 id="第二十五章">第二十五章</h3>
+<p><strong>名句</strong></p>
+<p>人法地，地法天，天法道，道法自然。</p>
+<h3 id="第三十三章">第三十三章</h3>
+<p><strong>名句</strong></p>
+<p>知人者智，自知者明；胜人者有力，自胜者强。知足者富，强行者有志；不失其所者久，死而不亡者寿。</p>
+<h3 id="第三十六章">第三十六章</h3>
+<p><strong>名句</strong></p>
+<p>将欲歙之，必固张之；将欲弱之，必固强之；将欲废之，必固兴之；将欲取之，比固与之。是谓微明。</p>
+<h2 id="德经">德经</h2>
+<h3 id="第三十八章">第三十八章</h3>
+<p><strong>名句</strong></p>
+<p>大丈夫处其厚，不居其薄；处其实，不居其华。</p>
+<h3 id="第四十一章">第四十一章</h3>
+<p><strong>名句</strong></p>
+<p>大方无隅；大器免成；大音希声；大象无形。</p>
+<p>上士闻道，勤而行之；中士闻道，若存若亡；下士闻道，大笑之。</p>
+<h3 id="第四十二章">第四十二章</h3>
+<p><strong>名句</strong></p>
+<p>道生一，一生二，二生三，三生万物。</p>
+<h3 id="第四十三章">第四十三章</h3>
+<p><strong>名句</strong></p>
+<p>天下之至柔，驰骋天下之至坚。</p>
+<h3 id="第四十四章">第四十四章</h3>
+<p><strong>名句</strong></p>
+<p>甚爱必大费；多藏必厚亡。故知足不辱，知止不殆，可以长久。</p>
+<h3 id="第四十五章">第四十五章</h3>
+<p>大直若屈；大巧若拙；大辩若讷。</p>
+<p>大成若缺，其用不弊。大盈若冲，其用不穷。</p>
+<h3 id="第五十六章">第五十六章</h3>
+<p><strong>名句</strong></p>
+<p>知者不言，言者不知。</p>
+<h3 id="第五十八章">第五十八章</h3>
+<p><strong>名句</strong></p>
+<p>方而不割；廉而不刿；直而不肆；光而不耀。</p>
+<h3 id="第六十三章">第六十三章</h3>
+<p><strong>名句</strong></p>
+<p>夫轻诺而寡信，多易必多难。</p>
+<p>天下难事，必作于易；天下大事，必作于细；图难于其易，为大于其细。</p>
+<p>为无为，事无事，味无味。</p>
+<p>圣人终不为大，故能成其大。</p>
+<h3 id="第六十四章">第六十四章</h3>
+<p><strong>名句</strong></p>
+<p>合抱之木，生于毫末；九层之台，起于累土；千里之行，始于足下。</p>
+<p>慎终如始，则无败事。</p>
+<h3 id="第六十七章">第六十七章</h3>
+<p><strong>名句</strong></p>
+<p>我有三宝，持而保之。一曰慈，二曰俭，三曰不敢为天下先。</p>
+<h3 id="第六十八章">第六十八章</h3>
+<p><strong>名句</strong></p>
+<p>善为士者，不武；善战者，不怒；善胜敌者，不与；善用人者，为之下。</p>
+<h3 id="第七十二章">第七十二章</h3>
+<p><strong>名句</strong></p>
+<p>圣人自知不自见；自爱不自贵。</p>
+<h3 id="第七十六章">第七十六章</h3>
+<p><strong>名句</strong></p>
+<p>人之生也柔弱，其死也坚强；草木之生也柔脆，其死也枯槁。故坚强者死之徒，柔弱者生之徒。</p>
+<h3 id="第七十九章">第七十九章</h3>
+<p><strong>名句</strong></p>
+<p>天道无亲，常与善人。</p>
+<h3 id="第八十一章">第八十一章</h3>
+<p><strong>名句</strong></p>
+<p>善者不辩，辩者不善；知者不博，博者不知。</p>
+<p>信言不美，美言不信；善者不辩，辩者不善；知者不博，博者不知。</p>
+<p>天之道，利而不害；圣人之道，为而不争。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <id>https://authoralankay.github.io/post/hello-gridea/</id>
+        <link href="https://authoralankay.github.io/post/hello-gridea/">
+        </link>
+        <updated>2018-12-11T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
+✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+<!-- more -->
+<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<a href="https://gridea.dev/">Gridea 主页</a><br>
+<a href="https://fehey.com/">示例网站</a></p>
+<h2 id="特性">特性👇</h2>
+<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
+<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
+<p>🏷️  你可以对文章进行标签分组</p>
+<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
+<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
+<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
+<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
+<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
+<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
+<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
+<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
+<p>未来，它一定会成为你离不开的伙伴</p>
+<p>尽情发挥你的才华吧！</p>
+<p>😘 Enjoy~</p>
+]]></content>
+    </entry>
+</feed>
